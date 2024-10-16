@@ -3,3 +3,9 @@ body {
     display:flex;
     justify-content:center;
 }
+
+.yellowLight {
+    -webkit-box-shadow: 10px 10px 300px 63px rgba(224,224,36,1);
+    -moz-box-shadow: 10px 10px 300px 63px rgba(224,224,36,1);
+    box-shadow: 10px 10px 300px 63px rgba(224,224,36,1);
+}
