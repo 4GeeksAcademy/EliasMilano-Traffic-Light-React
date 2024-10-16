@@ -59,7 +59,7 @@ const TrafficLight = () => {
                             <div key={indexColor} onClick={()=>{
                                     setColorSelected(color)
                                 }}
-                                className={"m-1 rounded-circle d-flex justify-content-center align-items-center" + (colorSelected == color ? "yellowLight" : "" )}
+                                className={"m-1 rounded-circle d-flex justify-content-center align-items-center " + (colorSelected == color ? "yellowLight" : "" )}
                                 style={{width:"60px", height:"60px", backgroundColor: color}}
                             >{(color == "purple" ? <h2>👽</h2> : "" )}
                             </div>
